@@ -74,8 +74,6 @@ typedef enum { FeedTypeUnknown, FeedTypeRSS, FeedTypeRSS1, FeedTypeAtom } FeedTy
 	
 	// Connection
 	NSURLConnection *urlConnection;
-	NSMutableData *asyncData;
-	NSString *asyncTextEncodingName;
 	ConnectionType connectionType;
 	
 	// Parsing
